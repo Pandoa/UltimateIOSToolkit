@@ -31,7 +31,14 @@ To make the plugin use your newly created application, we need to get the genera
 3. Click the newly created application.
 4. Click App Settings in the left sidebar.
 5. In the middle of the screen, copy the Application ID by clicking on <img src="https://github.com/Pandoa/AdsPro/blob/main/_images/GetApplicationId.png?raw=true" height="25px" style="position:relative;top:8px"/>.
-7. TODO:
+7. Open (or create it if it doesn't exist) the file `<YourProject>/Config/Engine.ini` in your favorite text editor.
+8. Add the Application ID previously copied for the desired platform with the following structure:
+```ini
+[AdsPro]
+AndroidAdMobAppID=ca-app-pub-XXXXXXXXXXXXXXXXXXX~XXXXXXX ; For Android
+iOSAdMobAppID=ca-app-pub-XXXXXXXXXXXXXXXXXXX~XXXXXXX     ; For iOS
+```
+9. Save and close the file `Engine.ini`.
 
 !> After doing this step, make sure to *always* use test ads during development or your account might be flagged and suspended if you don't.
 

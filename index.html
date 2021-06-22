@@ -29,8 +29,8 @@
 	body.close .sidebar-toggle {width: 36px}
 	/* width */
     ::-webkit-scrollbar {
-      width: 4px;
-	  height: 10px;
+      width: 6px;
+	  height: 6px;
     }
     ::-webkit-scrollbar-track {
       background: none;
@@ -43,6 +43,9 @@
       background: #555;
     }
 	::marker {color: #999;font-weight:100}
+	@media screen and (max-width: 768px) {
+		.sidebar-toggle {width:auto}
+	}
   </style>
 </head>
 <body>
