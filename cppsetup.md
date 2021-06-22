@@ -1,12 +1,12 @@
 # C++ Setup
 This section contains required steps to start using the plugin with C++.
-### Including the `AdsPro` module
+## Including the `AdsPro` module
 To use the plugin using C++, you need to include the `AdsPro` module.  
 To do so, open your `Project.Build.cs` file and add the following line in the constructor:
 ```csharp
 PublicDependencyModuleNames.Add("AdsPro");
 ```
-### Plugin Includes
+## Plugin Includes
 To use the methods and classes of the plugin, you must include the corresponding includes.  
 Here is a non-exhaustive list of available includes:
 ```cpp

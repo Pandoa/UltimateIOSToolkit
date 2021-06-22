@@ -29,7 +29,7 @@
   - [Interstitial Ad]()
   - [Rewarded Video]()
 - Support
-  - [Recently Asked Questions]()
+  - [Frequently Asked Questions](/frequentlyaskedquestions)
   - [Troubleshooting]()
   - [Common Issues]()
   - [Contact]()

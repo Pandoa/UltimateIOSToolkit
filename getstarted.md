@@ -29,6 +29,12 @@ To make the plugin use your newly created application, we need to get the genera
 1. Go to https://apps.admob.com/.
 2. Click Apps in the left sidebar.
 3. Click the newly created application.
-4. Click App Settings in the left sidebar
+4. Click App Settings in the left sidebar.
+5. In the middle of the screen, copy the Application ID by clicking on <img src="https://github.com/Pandoa/AdsPro/blob/main/_images/GetApplicationId.png?raw=true" height="25px" style="position:relative;top:8px"/>.
+7. TODO:
+
+!> After doing this step, make sure to *always* use test ads during development or your account might be flagged and suspended if you don't.
+
+> If this step is skipped, a test Application ID is automatically used. It will only show test ads.
 
 

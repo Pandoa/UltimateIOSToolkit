@@ -10,6 +10,9 @@
   <style>
 	html, .content {background: #121212}
 	.sidebar, body {background-color: #242424}
+	.sidebar a.section-link {font-size: 0.8em}
+	.app-sub-sidebar li {margin:0}
+	.app-sub-sidebar li > a.section-link {color:#29829b}
 	:root {--theme-color:#afd8e6}
 	.markdown-section p.tip {border-left: 4px solid #29829b}
 	.markdown-section p.tip:before {background: #29829b}
@@ -22,6 +25,8 @@
 	.token.keyword {color: #2992e6}
 	.token.punctuation{color: #777}
 	.sidebar ul>li>a {color: #888}
+	.sidebar-toggle {width: 300px; background: #555;transition: width 0.2s linear}
+	body.close .sidebar-toggle {width: 36px}
 	/* width */
     ::-webkit-scrollbar {
       width: 4px;
@@ -46,7 +51,8 @@
     window.$docsify = {
       name: 'Ads Pro',
       repo: '',
-	  loadSidebar: true
+	  loadSidebar: true,
+	  subMaxLevel: 2
     }
   </script>
   <!-- Docsify v4 -->
