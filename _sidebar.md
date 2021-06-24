@@ -12,7 +12,7 @@
   - [Zunks]()
   - [Others]()
 - GDPR & Tracking
-  - [GDPR]()
+  - [GDPR](/gdpr)
   - [iOS 14]()
 - Ads
   - [Banner View]()
