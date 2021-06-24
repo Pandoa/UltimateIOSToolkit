@@ -30,4 +30,10 @@ DelayGoogleMeasurementsData=true
 
 > You can initialize the Mobile Ads SDK at any time by calling `UAdMobLibrary::InitializeMobileAdsSDK()` or the equivalent Blueprint node `Initialize the MobileAds SDK`.
 
-## Request User Consent
+## Check if User Consent is required
+After making sure the SDK initialization is delayed, we need to know if the consent is required.
+
+## Summary
+<div style="text-align:center">
+<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/AdMobConsent.png?raw=true"/>
+</div>
