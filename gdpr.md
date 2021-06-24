@@ -39,18 +39,84 @@ return `true` if the user is in the EEA or we weren't able to get the informatio
 It's now time to request consent.
 ### Using the User Messaging Platform
 The UMP can be used to display Google's default consent form.
+
+A consent form can be created with the following steps.
+1. Go to the [Privacy & Messaging](https://apps.admob.com/v2/privacymessaging) section.
+2. Click on <img src="https://github.com/Pandoa/AdsPro/blob/main/_images/FundingChoice.png?raw=true" height="30px" style="position:relative;top:10px;margin:0 3px"/>.
+3. Select the app you want to use.
+4. Click on the create button to create a new message.
+5. Select `EU Consent` as message type.
+6. Fill the required fields for your message.
+7. Once the language of the message selected, click continue.
+8. In the editor, click `Save` in the upper right corner of the screen.
+9. Click on the three dots at the right of your newly created message and click on `Publish`.
+10. Make sure the status of your message is `Active`. It can take up to 10 minutes to update.
+
+You can now show the consent form with the C++ method `void UConsentLibrary::RequestConsent()` or the equivalent Blueprint node `Request Consent`.
+
 <div style="text-align:center">
 	<div><img src="https://github.com/Pandoa/AdsPro/blob/main/_images/UMPConsent.png?raw=true"/></div>
 	<div>The default UMP consent form.</div>
 </div>
 
+> If you request the user consent when it is not required (the user is not in the EEA), the consent form is not shown.
+
 ### Rolling your own
+If you don't want to use the Google's default consent form, you can create your own with UMG or Slate so it blends better in your application.
+
+A few things must be taken care of to get a proper consent. The [Official Website of the European Commission](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/how-my-personal-data-protected/how-should-my-consent-be-requested_en) 
+contains useful information about it.
+
+> If you use Mediation, you must notify the user that you are sharing their data with those providers.
 
 ## Consent Refused
+If the user refuses to give consent, you need to disable personalized ads for the Google Mobile Ads SDK _**and**_ the mediation partners.
 
+To do so, call the C++ method `UAdMobLibrary::SetPersonalizedAdsEnabled(false)` or the equivalent Blueprint node `Set Personalized Ads Enabled`. 
+Each mediation partner supporting GDPR also has a method to disable personalized ads. How to do so is described in the Mediation part of the documentation.
 
 ## Summary
 The following diagram shows a summary to how your application should behave.
 <div style="text-align:center">
 	<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/AdMobConsent.png?raw=true"/>
 </div>
+
+?> Don't forget to setup [App Tracking Transparency](/apptrackingtransparency).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

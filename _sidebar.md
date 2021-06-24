@@ -13,7 +13,7 @@
   - [Others]()
 - GDPR & Tracking
   - [GDPR](/gdpr)
-  - [iOS 14]()
+  - [App Tracking Transparency](/apptrackingtransparency)
 - Ads
   - [Banner View]()
   - [Interstitial Ad]()
