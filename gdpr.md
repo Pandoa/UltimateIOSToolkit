@@ -39,6 +39,11 @@ return `true` if the user is in the EEA or we weren't able to get the informatio
 It's now time to request consent.
 ### Using the User Messaging Platform
 The UMP can be used to display Google's default consent form.
+<div style="text-align:center">
+	<div><img src="https://github.com/Pandoa/AdsPro/blob/main/_images/UMPConsent.png?raw=true"/></div>
+	<div>The default UMP consent form.</div>
+</div>
+
 ### Rolling your own
 
 ## Consent Refused
