@@ -31,9 +31,21 @@ DelayGoogleMeasurementsData=true
 > You can initialize the Mobile Ads SDK at any time by calling `UAdMobLibrary::InitializeMobileAdsSDK()` or the equivalent Blueprint node `Initialize the MobileAds SDK`.
 
 ## Check if User Consent is required
-After making sure the SDK initialization is delayed, we need to know if the consent is required.
+After making sure the SDK initialization is delayed, we need to know if the consent is required.  
+The plugin offers the method `UConsentLibrary::IsConsentRequired()` and its equivalent Blueprint node `Is Consent Required` to know if the consent is required. These methods 
+return `true` if the user is in the EEA or we weren't able to get the information.
+
+## Requesting Consent
+It's now time to request consent.
+### Using the User Messaging Platform
+The UMP can be used to display Google's default consent form.
+### Rolling your own
+
+## Consent Refused
+
 
 ## Summary
+The following diagram shows a summary to how your application should behave.
 <div style="text-align:center">
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/AdMobConsent.png?raw=true"/>
+	<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/AdMobConsent.png?raw=true"/>
 </div>
