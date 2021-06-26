@@ -44,4 +44,54 @@ iOSAdMobAppID=ca-app-pub-XXXXXXXXXXXXXXXXXXX~XXXXXXX     ; For iOS
 
 > If this step is skipped, a test Application ID is automatically used. It will only show test ads.
 
+## Enabling Test Ads
 
+?> If you use your own Application ID, skipping this part might result in your AdMob account being flagged and suspended.
+
+Test ads must be used during development. To do so, there exists three methods.
+
+### Demo ad units.
+The quickest way to enable testing is to use Google-provided demo ad units. 
+These ad units are not associated with your AdMob account, so there's no risk of your account generating invalid traffic when using these ad units.
+
+<div style="margin-left:50%;left:-25%;position:relative">
+
+|Ad Format|Sample ad unit ID|
+|:----|:----|
+|Banner View|`ca-app-pub-3940256099942544/6300978111`|
+|Interstitial Ad|`ca-app-pub-3940256099942544/1033173712`|
+|Rewarded Video|`ca-app-pub-3940256099942544/5224354917`|
+</div>
+
+### Add your test device in the AdMob UI
+For a simple, non-programmatic way to add a test device and test new or existing app builds, use the AdMob UI.
+1. Sign in to your AdMob account at https://apps.admob.com.
+2. Click Settings in the sidebar.
+3. Click the Test devices tab.
+4. Click Add test device.  
+5. Select the platform of your device.
+6. Enter a device name. Consider using a name that will help you quickly identify your devices in your AdMob account.
+7. Enter your Advertising ID/IDFA. How to find your advertising ID/IDFA [here](https://support.google.com/admob/answer/9691433). 
+8. Select a gesture to use to activate ad inspector.
+9. Click Done. 
+
+### Add your test device programmatically
+If you want to test ads in your app as you're developing, follow the steps below to programmatically register your test device.
+
+1. Load your ads-integrated app and make an ad request.
+2. Check the logcat output for a message that looks like the one below, which shows you your device ID and how to add it as a test device:
+```java
+I/Ads: Use RequestConfiguration.Builder.setTestDeviceIds(Arrays.asList("33BE2250B43518CCDA7DE426D04EE231"))
+to get test ads on this device."
+```
+3. Before loading any ads, call the C++ method `UAdMobLibrary::AddTestDeviceID(TEXT("33BE2250B43518CCDA7DE426D04EE231")))` or the equivalent Blueprint
+node `Add Test Device ID`.
+4. You can optionally check if it works correctly with the C++ method `UAdMobLibrary::IsTestDevice()` or the equivalent Blueprint node 
+`Is Test Device`.
+5. Re-run your app. If the ad is a Google ad, you'll see a Test Ad label centered at the top of the ad (banner, interstitial, or rewarded video):  
+
+<div style="text-align:center">
+<img src="https://developers.google.com/admob/images/android-testad-0.png" style="max-width:500px"/>
+</div>
+
+> Ads with this Test Ad label are safe to click. Requests, impressions, and clicks on test ads will not show up in your account's reports.

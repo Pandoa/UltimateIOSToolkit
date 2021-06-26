@@ -22,13 +22,18 @@
 	.markdown-section blockquote {background: #202020;}
 	.markdown-section p.warn {border: 1px solid #bF7F7F; color:white}
 	.markdown-section pre>code {color: #ddd}
+	.markdown-section p.tip, .markdown-section tr:nth-child(2n) {background:#222}
 	.token.class-name {color: #70d997}
+	.markdown-section td, .markdown-section th {border:1px solid #555}
 	.token.function {color: #efefbf}
 	.token.keyword {color: #2992e6}
-	.token.punctuation{color: #777}
+	.token.punctuation{color: #999}
 	.sidebar ul>li>a {color: #888}
 	.sidebar-toggle {width: 300px; background: #555;transition: width 0.2s linear}
 	body.close .sidebar-toggle {width: 36px}
+	h4 {margin-block-end: 0.33em;margin-block-start: 0.66em}
+	h5 {margin-block-start: 1em;margin-block-end: 0}
+	thead{background: #333}
 	/* width */
     ::-webkit-scrollbar {
       width: 6px;
@@ -63,6 +68,7 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>

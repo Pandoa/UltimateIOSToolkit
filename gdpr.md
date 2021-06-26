@@ -1,5 +1,5 @@
 # GDPR
-This section contains information on how to make your application GDPR-compliant.
+This section contains information on how to make your application GDPR-compliant. For actual code examples, head to [the Blueprint GDPR examples](/blueprintgdpr) page or the [C++ GDPR examples](/cppgdpr) page.
 
 ## What is GDPR
 The General Data Protection Regulation (GDPR) is a privacy and security law applicated by the European Union.  
