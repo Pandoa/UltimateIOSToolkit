@@ -18,7 +18,7 @@
   - [Interstitial Ad](/interstitialad)
   - [Rewarded Video](/rewardedvideo)
 - Blueprints Examples
-  - [GDPR](/blueprintsgdpr)
+  - [GDPR](/blueprintgdpr)
   - [Banner View]()
   - [Interstitial Ad]()
   - [Rewarded Video]()

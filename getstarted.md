@@ -79,10 +79,17 @@ For a simple, non-programmatic way to add a test device and test new or existing
 If you want to test ads in your app as you're developing, follow the steps below to programmatically register your test device.
 
 1. Load your ads-integrated app and make an ad request.
-2. Check the logcat output for a message that looks like the one below, which shows you your device ID and how to add it as a test device:
-```java
+2. Check the log output for a message that looks like the one below, which shows you your device ID and how to add it as a test device:  
+On Android:
+```logcat
 I/Ads: Use RequestConfiguration.Builder.setTestDeviceIds(Arrays.asList("33BE2250B43518CCDA7DE426D04EE231"))
 to get test ads on this device."
+```
+On iOS:
+```logs
+<Google> To get test ads on this device, set:
+GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers =
+@[ @"2077ef9a63d2b398840261c8221a0c9b" ];
 ```
 3. Before loading any ads, call the C++ method `UAdMobLibrary::AddTestDeviceID(TEXT("33BE2250B43518CCDA7DE426D04EE231")))` or the equivalent Blueprint
 node `Add Test Device ID`.
