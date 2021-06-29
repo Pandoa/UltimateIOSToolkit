@@ -19,7 +19,7 @@
   - [Rewarded Video](/rewardedvideo)
 - Blueprints Examples
   - [GDPR](/blueprintgdpr)
-  - [Banner View]()
+  - [Banner View](/blueprintbannerview)
   - [Interstitial Ad]()
   - [Rewarded Video]()
 - C++ Examples

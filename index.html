@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" />
   <style>
 	html, body, .content {background: #121212}
+	textarea {display:none}
+	button.copy { border: 1px solid white; background:#121212;color:white;padding:10px 20px;border-radius:5px;cursor:pointer}
 	.sidebar {background-color: #242424}
 	.sidebar a.section-link {font-size: 0.8em}
 	.app-sub-sidebar li {margin:0}
@@ -53,7 +55,26 @@
 	@media screen and (max-width: 768px) {
 		.sidebar-toggle {width:auto}
 	}
+	
+	button {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
   </style>
+  <script>
+	function copyBlueprintCode(button)
+	{
+		var code = button.parentNode.children[0];
+		code.style.display="block";
+		code.select();
+		document.execCommand("copy");
+		code.style.display="none";
+	}
+  </script>
 </head>
 <body>
   <div id="app"></div>
@@ -73,3 +94,43 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
