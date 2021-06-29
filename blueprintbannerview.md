@@ -3,7 +3,7 @@ This section contains examples on how to use Banner Views with Blueprints.
 ## Creating a Banner View
 To use a Banner view, we first have to create one. You can create a Banner View with the `Create Banner View` Blueprint node.
 <div class="bpcode">
-<textarea>
+<textarea readonly>
 Begin Object Class=/Script/BlueprintGraph.K2Node_AsyncAction Name="K2Node_AsyncAction_8"
    ProxyFactoryFunctionName="CreateAdView"
    ProxyFactoryClass=Class'"/Script/AdsPro.AdMobCreateAdView"'
@@ -46,11 +46,13 @@ End Object
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
+!> It's important to store the Banner View in a variable to prevent it from being garbage collected.
+
 ## Loading an Ad
 Now that the Banner is initialized, it's time to load an ad that will be then shown to the user.  
 To load an ad, call the `Load Ad for Banner View` node.
 <div class="bpcode">
-<textarea>
+<textarea readonly>
 Begin Object Class=/Script/BlueprintGraph.K2Node_AsyncAction Name="K2Node_AsyncAction_8"
    ProxyFactoryFunctionName="CreateAdView"
    ProxyFactoryClass=Class'"/Script/AdsPro.AdMobCreateAdView"'
@@ -124,7 +126,7 @@ is ready when you want to show it.
 ## Showing the Banner
 To show the Banner View, simply use the `Show Banner View` node.
 <div class="bpcode">
-<textarea>
+<textarea readonly>
 Begin Object Class=/Script/BlueprintGraph.K2Node_AsyncAction Name="K2Node_AsyncAction_8"
    ProxyFactoryFunctionName="CreateAdView"
    ProxyFactoryClass=Class'"/Script/AdsPro.AdMobCreateAdView"'

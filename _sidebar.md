@@ -20,7 +20,7 @@
 - Blueprints Examples
   - [GDPR](/blueprintgdpr)
   - [Banner View](/blueprintbannerview)
-  - [Interstitial Ad]()
+  - [Interstitial Ad](/blueprintinterstitialad)
   - [Rewarded Video]()
 - C++ Examples
   - [GDPR](/cppgdpr)
