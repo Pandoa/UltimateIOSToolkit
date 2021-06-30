@@ -21,7 +21,7 @@
   - [GDPR](/blueprintgdpr)
   - [Banner View](/blueprintbannerview)
   - [Interstitial Ad](/blueprintinterstitialad)
-  - [Rewarded Video]()
+  - [Rewarded Video](/blueprintrewardedvideo)
 - C++ Examples
   - [GDPR](/cppgdpr)
   - [Banner View](/cppbannerview)

@@ -42,7 +42,7 @@ End Object
 
 
 ## Loading an Ad
-Now that the Banner is initialized, it's time to load an ad that will be then shown to the user.  
+Now that the Interstitial Ad is initialized, it's time to load an ad that will be then shown to the user.  
 To load an ad, call the `Load Ad for Interstitial Ad` node.
 <div class="bpcode">
 <textarea readonly>
