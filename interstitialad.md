@@ -47,3 +47,29 @@ in a game. When an app shows an interstitial ad, the user has the choice to eith
 </div>
 
 ## API Reference
+### Methods
+#### LoadAd
+##### Description
+Loads an ad for the rewarded video.
+##### Parameters
+- **AdUnit** `FStringView`: The ad unit to use.
+- **Keywords** `TArray<FString>`: The keywords for the ad request.
+- **Callback** `FAdMobCallback`: Callback called when the ad has been loaded.
+
+#### Show
+##### Description
+Shows the rewarded video.
+##### Parameters 
+- **Callback** `FAdMobCallback`: Callback called when the video is shown.
+
+### Events
+#### OnAdFailedToShow
+Called when we failed to show the ad.
+#### OnAdShowed
+Called when the ad has been shown.
+#### OnAdDismissed
+Called when the ad has been dismissed by the user.
+#### OnAdImpression
+Called when an ad impression occured.
+#### OnReward
+Called when the user watched the ad without skipping it and deserves a reward.

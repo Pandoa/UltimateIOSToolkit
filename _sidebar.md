@@ -25,10 +25,10 @@
 - C++ Examples
   - [GDPR](/cppgdpr)
   - [Banner View](/cppbannerview)
-  - [Interstitial Ad]()
-  - [Rewarded Video]()
+  - [Interstitial Ad](/cppinterstitialad)
+  - [Rewarded Video](/cpprewardedvideo)
 - Support
   - [Frequently Asked Questions](/frequentlyaskedquestions)
-  - [Troubleshooting]()
-  - [Common Issues]()
-  - [Contact]()
+  - [Troubleshooting](/troubleshooting)
+  - [Common Issues](/commonissues)
+  - [Contact](/contact)

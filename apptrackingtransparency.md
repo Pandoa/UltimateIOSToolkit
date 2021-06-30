@@ -7,6 +7,7 @@ First, we need to define a message to be displayed to the user.
 2. Add the following data:
 ```ini
 [AdsPro]
+EnableUserTrackingConsent=true
 UserTrackingUsageDescription="Your message to request App Tracking Transparency."
 ```
 3. Save and close the file.

@@ -79,7 +79,7 @@ For a simple, non-programmatic way to add a test device and test new or existing
 If you want to test ads in your app as you're developing, follow the steps below to programmatically register your test device.
 
 1. Load your ads-integrated app and make an ad request.
-2. Check the log output for a message that looks like the one below, which shows you your device ID.
+2. Check the log output for a message that looks like the one below, which shows you your device ID.  
 On Android:
 ```logcat
 I/Ads: Use RequestConfiguration.Builder.setTestDeviceIds(Arrays.asList("33BE2250B43518CCDA7DE426D04EE231"))
