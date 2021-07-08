@@ -1,5 +1,5 @@
 # C++ Setup
-This section contains required steps to start using the plugin with C++.
+This section contains required steps to start using the plugin with C++. These steps are not needed if you don't plan to use the plugin with C++.
 ## Including the `AdsPro` module
 To use the plugin using C++, you need to include the `AdsPro` module.  
 To do so, open your `Project.Build.cs` file and add the following line in the constructor:
@@ -18,6 +18,10 @@ Here is a non-exhaustive list of available includes:
 #include "AdMob/InterstitialAd.h"
 
 // Mediation
+#include "Mediation/AdColony/AdColonyLibrary.h"
+#include "Mediation/AppLovin/AppLovinLibrary.h"
+#include "Mediation/Chartboost/ChartboostLibrary.h"
+#include "Mediation/Fyber/FyberLibrary.h"
 #include "Mediation/Vungle/VungleLibrary.h"
 #include "Mediation/Vpon/VponLibrary.h"
 

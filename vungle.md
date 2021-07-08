@@ -4,7 +4,7 @@ This section contains information on how to use Vungle as a mediation partner.
 ## Enabling Vungle Mediation
 First, we need to enable Vungle Mediation. 
 1. Open `<Project>/Config/Engine.ini`.
-2. Adds the following configuration:
+2. Add the following configuration:
 ```ini
 [AdsPro.Mediation]
 EnableVungleMediation=true
