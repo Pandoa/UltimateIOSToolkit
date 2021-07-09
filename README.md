@@ -20,6 +20,6 @@ All functionalities are available without limitation for Blueprints and / or C++
 Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Blueprints Examples](/blueprintsexamples).
 
 ## Support
-The [Troubleshooting](/troubleshooting) and the [Common Issues](/commonissues) might help you to quickly find a solution to a problem.  
+The [Troubleshooting](/troubleshooting) and the [Common Issues](/commonissues) pages might help you to quickly find a solution to a problem.  
 If you have question(s) about the plugin, visit the [Frequently Asked Questions](/frequentlyaskedquestions).  
 If these pages still don't contain what you are looking for, see how to contact us on the [Contact](/contact) page.

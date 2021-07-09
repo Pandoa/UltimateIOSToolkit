@@ -38,7 +38,9 @@ To make the plugin use your newly created application, we need to get the genera
 AndroidAdMobAppID=ca-app-pub-XXXXXXXXXXXXXXXXXXX~XXXXXXX ; For Android
 iOSAdMobAppID=ca-app-pub-XXXXXXXXXXXXXXXXXXX~XXXXXXX     ; For iOS
 ```
-9. Save and close the file `Engine.ini`.
+9. Save and close the file `DefaultEngine.ini`.
+
+!> All settings can be edited in the Editor by going to `Project Settings` > `Settings` > `AdsPro`.  
 
 !> After doing this step, make sure to *always* use test ads during development or your account might be flagged and suspended if you don't.
 

@@ -16,8 +16,10 @@ adb logcat
 ### iOS
 You can get the device's logs with the following steps:
 1. Connect your iOS device to the Mac through USB.
-2. Launch Xcode. Go to Windows > Devices and Simulators.
+2. Launch Xcode. Go to `Windows` > `Devices and Simulators` and select your device.
 3. Click on Open Console.
+4. In the search bar, write `process: <YourProcessName>`.
+5. Clear the console and make the issue happens.
 
 ## Getting Unreal Engine Logs
 The following steps will help you to get the Unreal Engine logs of your device.

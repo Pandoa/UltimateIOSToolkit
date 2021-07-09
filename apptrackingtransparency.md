@@ -3,7 +3,7 @@ This section contains information on how to setup App Tracking Transparency for 
 
 ## App Tracking Transparency Message
 First, we need to define a message to be displayed to the user.
-1. Open the file `<Project>/Config/Engine.ini`.
+1. Open the file `<Project>/Config/DefaultEngine.ini`.
 2. Add the following data:
 ```ini
 [AdsPro]
@@ -11,6 +11,8 @@ EnableUserTrackingConsent=true
 UserTrackingUsageDescription="Your message to request App Tracking Transparency."
 ```
 3. Save and close the file.
+
+> You can also enable it by going in the Editor to `Project Settings` > `Plugins` > `AdsPro`.
 
 ## Requesting Tracking
 It's now time to request Tracking. For that, call the C++ method `UAppTrackingLibrary::RequestIdentifierForAdvertisers()` or the equivalent Blueprint node `Request Identifier for Advertisers`.
