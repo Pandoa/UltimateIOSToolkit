@@ -39,11 +39,13 @@
   - [Rewarded Video](/rewardedvideo)
 - Blueprints Examples
   - [GDPR](/blueprintgdpr)
+  - [App Open](/blueprintappopen)
   - [Banner View](/blueprintbannerview)
   - [Interstitial Ad](/blueprintinterstitialad)
   - [Rewarded Video](/blueprintrewardedvideo)
 - C++ Examples
   - [GDPR](/cppgdpr)
+  - [App Open](/cppappopen)
   - [Banner View](/cppbannerview)
   - [Interstitial Ad](/cppinterstitialad)
   - [Rewarded Video](/cpprewardedvideo)
