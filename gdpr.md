@@ -20,7 +20,7 @@ user metrics without making additional code changes.
 However, if your app requires user consent before these events can be sent, you can delay app measurement 
 until you explicitly initialize the Mobile Ads SDK or load an ad.
 
-To delay app measurement, add the following in `<Project>/Config/Engine.ini`:
+To delay app measurement, add the following in `<Project>/Config/DefaultEngine.ini`:
 ```ini
 [AdsPro]
 DelayGoogleMeasurementsData=true
@@ -80,6 +80,8 @@ The following diagram shows a summary to how your application should behave.
 <div style="text-align:center">
 	<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/AdMobConsent.png?raw=true"/>
 </div>
+
+> Some Mediation Partners require to explicitly update the GDPR status when an user falls under GDPR regardless of user consent.
 
 ?> Don't forget to setup [App Tracking Transparency](/apptrackingtransparency).
 

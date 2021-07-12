@@ -3,7 +3,7 @@ This section contains information on how to use AdColony as a mediation partner.
 
 ## Enabling AdColony Mediation
 First, we need to enable AdColony Mediation. 
-1. Open `<Project>/Config/Engine.ini`.
+1. Open `<Project>/Config/DefaultEngine.ini`.
 2. Add the following configuration:
 ```ini
 [AdsPro.Mediation]

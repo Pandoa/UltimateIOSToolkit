@@ -27,12 +27,13 @@
   - [Verizon Media](/verizonmedia)
   - [Vpon](/vpon)
   - [Vungle](/vungle)
-  - [Zunks](/zunks)
+  - [Zucks](/zucks)
   - [Others](/others)
 - GDPR & Tracking
   - [GDPR](/gdpr)
   - [App Tracking Transparency](/apptrackingtransparency)
 - Ads
+  - [App Open](/appopen)
   - [Banner View](/bannerview)
   - [Interstitial Ad](/interstitialad)
   - [Rewarded Video](/rewardedvideo)

@@ -3,7 +3,7 @@ This section contains information on how to use Flurry as a mediation partner.
 
 ## Enabling Flurry Mediation
 First, we need to enable Flurry Mediation. 
-1. Open `<Project>/Config/Engine.ini`.
+1. Open `<Project>/Config/DefaultEngine.ini`.
 2. Add the following configuration:
 ```ini
 [AdsPro.Mediation]

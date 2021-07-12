@@ -3,7 +3,7 @@ This section contains information on how to use AppLovin as a mediation partner.
 
 ## Enabling AppLovin Mediation
 First, we need to enable AppLovin Mediation. 
-1. Open `<Project>/Config/Engine.ini`.
+1. Open `<Project>/Config/DefaultEngine.ini`.
 2. Add the following configuration:
 ```ini
 [AdsPro.Mediation]
@@ -25,7 +25,7 @@ The following methods are available to customize AppLovin settings:
 |`UAppLovinLibrary::SetIsAgeRestrictedUser()`| `Set Is Age Restricted User`| Sets if the user is age restricted.|
 |`UAppLovinLibrary::InitializeAppLovinSDK()`| `Initialize AppLovin SDK`| Initializes the AppLovin SDK with your SDK key.|
 ### Config
-The followin configuration key are available to customize AppLovin settings:
+The following configuration key is available to customize AppLovin settings:
 ```ini 
 [AdsPro.Mediation.AppLovin]
 MuteAudio=true ; If we want to mute audio for ads.

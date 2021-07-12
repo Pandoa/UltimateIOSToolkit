@@ -3,7 +3,7 @@ This section contains information on how to use AdFalcon as a mediation partner.
 
 ## Enabling AdFalcon Mediation
 First, we need to enable AdFalcon Mediation. 
-1. Open `<Project>/Config/Engine.ini`.
+1. Open `<Project>/Config/DefaultEngine.ini`.
 2. Add the following configuration:
 ```ini
 [AdsPro.Mediation]
