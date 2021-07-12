@@ -13,7 +13,8 @@ EnableAppLovinMediation=true
 
 !> On iOS, you will have to rebuild the plugin for the change to take effect.
 
-> Make sure to follow [this guide](https://developers.google.com/admob/android/mediation/applovin#step_1_set_up_applovin) to create and configure an AppLovin account.
+> Make sure to follow [this guide](https://developers.google.com/admob/android/mediation/applovin#step_1_set_up_applovin) to create and 
+configure an AppLovin account.
 
 
 ## Additional AppLovin Settings
