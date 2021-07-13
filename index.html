@@ -108,7 +108,21 @@
 		top: -60px;		
 	}
 	
+	.adblock-container {
+		position: fixed;
+		z-index: 9999;
+		border: 1px solid #bF7F7F; 
+		color:white;
+		background: rgba(234,111,90,.1);
+		padding: 20px;
+		right: 10px;
+		top: 10px;
+		
+		display: none;
+	}
+	
   </style>
+  <script src="./js/prebid-ads.js"></script>
   <script>
 	function copyBlueprintCode(button)
 	{
@@ -121,6 +135,18 @@
   </script>
 </head>
 <body>
+	<div id="block-notice" class="adblock-container">
+		Ad Blocker detected. The documentation might not work properly.
+	</div>
+	
+	<script>
+		if (window.canRunAds === undefined)
+		{
+			console.log("Ad blocker detected.");
+			document.getElementById("block-notice").style.display = 'flex';
+		}
+	</script>
+
   <div id="app"></div>
   <script>
     window.$docsify = {
