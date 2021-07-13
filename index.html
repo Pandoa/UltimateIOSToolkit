@@ -113,7 +113,7 @@
 		z-index: 9999;
 		border: 1px solid #bF7F7F; 
 		color:white;
-		background: rgba(234,111,90,.1);
+		background: #281b19;
 		padding: 20px;
 		right: 10px;
 		top: 10px;
@@ -121,29 +121,32 @@
 		display: none;
 	}
 	
+	.adblock-container > h1 {
+		font-size: 18px;
+		margin:0;
+		display:block;
+	}
+	
+	.adblock-container > div {
+		color: #ddd;
+	}
+	
   </style>
   <script src="./js/prebid-ads.js"></script>
-  <script>
-	function copyBlueprintCode(button)
-	{
-		var code = button.parentNode.children[0];
-		code.style.display="block";
-		code.select();
-		document.execCommand("copy");
-		code.style.display="none";
-	}
-  </script>
+  <script>function copyBlueprintCode(button){var c=button.parentNode.children[0];c.style.display="block";c.select();document.execCommand("copy");c.style.display="none";}</script>
 </head>
 <body>
 	<div id="block-notice" class="adblock-container">
-		Ad Blocker detected. The documentation might not work properly.
+		<h1>Ad Blocker detected. The documentation might not work properly.</h1>
+		<div>
+			Most pages will be blocked due to the name of the website.
+		</div>
 	</div>
 	
 	<script>
 		if (window.canRunAds === undefined)
 		{
-			console.log("Ad blocker detected.");
-			document.getElementById("block-notice").style.display = 'flex';
+			document.getElementById("block-notice").style.display = 'block';
 		}
 	</script>
 
@@ -156,12 +159,11 @@
 	  subMaxLevel: 2
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
 </body>
 </html>
 
