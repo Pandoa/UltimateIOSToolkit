@@ -131,6 +131,16 @@
 		color: #ddd;
 	}
 	
+	.adblock-container > button {
+		position: absolute;
+		top:0;
+		right:0;
+		background: none;
+		border: none;
+		color: red;
+		cursor: pointer;
+	}
+	
   </style>
   <script src="./js/prebid-ads.js"></script>
   <script>function copyBlueprintCode(button){var c=button.parentNode.children[0];c.style.display="block";c.select();document.execCommand("copy");c.style.display="none";}</script>
@@ -141,6 +151,9 @@
 		<div>
 			Most pages will be blocked due to the name of the website.
 		</div>
+		<button onclick="document.getElementById('block-notice').style.display = 'none'">
+			&#10006;
+		</button>
 	</div>
 	
 	<script>
