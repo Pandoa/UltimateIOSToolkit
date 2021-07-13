@@ -52,7 +52,7 @@ iOSAdMobAppID=ca-app-pub-XXXXXXXXXXXXXXXXXXX~XXXXXXX     ; For iOS
 
 Test ads must be used during development. To do so, there exists three methods.
 
-### Demo ad units.
+### Demo ad units
 The quickest way to enable testing is to use Google-provided demo ad units. 
 These ad units are not associated with your AdMob account, so there's no risk of your account generating invalid traffic when using these ad units.
 
@@ -60,6 +60,7 @@ These ad units are not associated with your AdMob account, so there's no risk of
 
 |Ad Format|Sample ad unit ID|
 |:----|:----|
+|App Open|`ca-app-pub-3940256099942544/3419835294`|
 |Banner View|`ca-app-pub-3940256099942544/6300978111`|
 |Interstitial Ad|`ca-app-pub-3940256099942544/1033173712`|
 |Rewarded Video|`ca-app-pub-3940256099942544/5224354917`|

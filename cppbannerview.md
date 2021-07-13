@@ -128,7 +128,7 @@ private:
 };
 ```
 
-##### Source file `MyClass.cpp`
+##### Source File `MyClass.cpp`
 ```cpp
 // Your copyright notice
 
