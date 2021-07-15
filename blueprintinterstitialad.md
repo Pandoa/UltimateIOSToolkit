@@ -102,7 +102,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_MakeArray Name="K2Node_MakeArra
    CustomProperties Pin (PinId=05D5559E44A0F5174C9CB6ADCC5EA1BC,PinName="[1]",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,DefaultValue="Keywords",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/LoadAdInterstitialAd.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/LoadAdInterstitial.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
