@@ -19,7 +19,7 @@
   - [maio](/maio)
   - [MobFox](/mobfox)
   - [MoPub](/mopub)
-  - [myTarget](/myTarget)
+  - [myTarget](/mytarget)
   - [nend](/nend)
   - [TapJoy](/tapjoy)
   - [Tencent](/tencent)
