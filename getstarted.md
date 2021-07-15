@@ -30,7 +30,7 @@ To make the plugin use your newly created application, we need to get the genera
 2. Click Apps in the left sidebar.
 3. Click the newly created application.
 4. Click App Settings in the left sidebar.
-5. In the middle of the screen, copy the Application ID by clicking on <img src="https://github.com/Pandoa/AdsPro/blob/main/_images/GetApplicationId.png?raw=true" height="25px" style="position:relative;top:8px"/>.
+5. In the middle of the screen, copy the Application ID by clicking on <img src="_images/GetApplicationId.png" height="25px" style="position:relative;top:8px"/>.
 7. Open (or create it if it doesn't exist) the file `<YourProject>/Config/DefaultEngine.ini` in your favorite text editor.
 8. Add the Application ID previously copied for the desired platform with the following structure:
 ```ini
