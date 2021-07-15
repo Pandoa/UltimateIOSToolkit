@@ -1,5 +1,5 @@
 # App Open
-This section contains information about App Open, if you are looking for examples, head to [the Blueprint examples](/blueprintsappopen) or [the C++ examples](/cppappopen).
+This section contains information about App Open, if you are looking for examples, head to [the Blueprint examples](/blueprintappopen) or [the C++ examples](/cppappopen).
 
 ## What are they?
 App open ads are a special ad format intended for publishers wishing to monetize their app load screens. 

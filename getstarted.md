@@ -52,7 +52,7 @@ iOSAdMobAppID=ca-app-pub-XXXXXXXXXXXXXXXXXXX~XXXXXXX     ; For iOS
 
 Test ads must be used during development. To do so, there exists three methods.
 
-### Demo ad units
+### 1. Demo ad units
 The quickest way to enable testing is to use Google-provided demo ad units. 
 These ad units are not associated with your AdMob account, so there's no risk of your account generating invalid traffic when using these ad units.
 
@@ -66,7 +66,7 @@ These ad units are not associated with your AdMob account, so there's no risk of
 |Rewarded Video|`ca-app-pub-3940256099942544/5224354917`|
 </div>
 
-### Add your test device in the AdMob UI
+### 2. Add your test device in the AdMob UI
 For a simple, non-programmatic way to add a test device and test new or existing app builds, use the AdMob UI.
 1. Sign in to your AdMob account at https://apps.admob.com.
 2. Click Settings in the sidebar.
@@ -78,7 +78,7 @@ For a simple, non-programmatic way to add a test device and test new or existing
 8. Select a gesture to use to activate ad inspector.
 9. Click Done. 
 
-### Add your test device programmatically
+### 3. Add your test device programmatically
 If you want to test ads in your app as you're developing, follow the steps below to programmatically register your test device.
 
 1. Load your ads-integrated app and make an ad request.
@@ -97,8 +97,8 @@ GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers =
 3. Before loading any ads, call the C++ method `UAdMobLibrary::AddTestDeviceID(TEXT("33BE2250B43518CCDA7DE426D04EE231")))` or the equivalent Blueprint
 node `Add Test Device ID`.
 4. You can optionally check if it works correctly with the C++ method `UAdMobLibrary::IsTestDevice()` or the equivalent Blueprint node 
-`Is Test Device`.
-5. Re-run your app. If the ad is a Google ad, you'll see a Test Ad label centered at the top of the ad (banner, interstitial, or rewarded video):  
+`Is Test Device` (Android only).
+5. Re-run your app. If the ad is a Google ad, you'll see a Test Ad label centered at the top of the ad (appopen, banner, interstitial, or rewarded video):  
 
 <div style="text-align:center">
 <img src="https://developers.google.com/admob/images/android-testad-0.png" style="max-width:500px"/>

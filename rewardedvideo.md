@@ -1,5 +1,5 @@
 # Rewarded Video
-This section contains information about Rewarded Videos, if you are looking for examples, head to the Blueprint examples or the C++ examples.
+This section contains information about Rewarded Videos, if you are looking for examples, head to the [Blueprint examples](/blueprintrewardedvideo) or the [C++ examples](/cpprewardedvideo).
 ## What are they?
 Rewarded Videos are ads that users have the option of interacting with in exchange for in-app rewards.
 

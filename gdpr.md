@@ -42,7 +42,7 @@ The UMP can be used to display Google's default consent form.
 
 A consent form can be created with the following steps.
 1. Go to the [Privacy & Messaging](https://apps.admob.com/v2/privacymessaging) section.
-2. Click on <img src="https://github.com/Pandoa/AdsPro/blob/main/_images/FundingChoice.png?raw=true" height="30px" style="position:relative;top:10px;margin:0 3px"/>.
+2. Click on <img src="_images/FundingChoice.png" height="30px" style="position:relative;top:10px;margin:0 3px"/>.
 3. Select the app you want to use.
 4. Click on the create button to create a new message.
 5. Select `EU Consent` as message type.
@@ -55,7 +55,7 @@ A consent form can be created with the following steps.
 You can now show the consent form with the C++ method `void UConsentLibrary::RequestConsent()` or the equivalent Blueprint node `Request Consent`.
 
 <div style="text-align:center">
-	<div><img src="https://github.com/Pandoa/AdsPro/blob/main/_images/UMPConsent.png?raw=true"/></div>
+	<div><img src="_images/UMPConsent.png"/></div>
 	<div>The default UMP consent form.</div>
 </div>
 
@@ -78,7 +78,7 @@ Each mediation partner supporting GDPR also has a method to disable personalized
 ## Summary
 The following diagram shows a summary to how your application should behave.
 <div style="text-align:center">
-	<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/AdMobConsent.png?raw=true"/>
+	<img src="_images/AdMobConsent.png"/>
 </div>
 
 > Some Mediation Partners require to explicitly update the GDPR status when an user falls under GDPR regardless of user consent.

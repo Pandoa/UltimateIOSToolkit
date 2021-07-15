@@ -1,5 +1,5 @@
 # Banner View
-This section contains information about Banner Views (also called Ad Views), if you are looking for examples, head to [the Blueprint examples](/blueprintsbannerview) or [the C++ examples](/cppbannerview).
+This section contains information about Banner Views (also called Ad Views), if you are looking for examples, head to [the Blueprint examples](/blueprintbannerview) or [the C++ examples](/cppbannerview).
 
 ## What are they?
 Banner views occupy a spot within an app's layout, either at the top or bottom of the device screen. They stay on screen while users are interacting with the app, and can refresh automatically after a certain period of time. 

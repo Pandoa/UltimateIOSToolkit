@@ -19,7 +19,7 @@ All functionalities are available without limitation for Blueprints and / or C++
 ![Features](_images/Features.png)
 
 ## Get Started
-Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Blueprints Examples](/blueprintsexamples).
+Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Blueprints Examples](/blueprintexamples).
 
 ## Support
 The [Troubleshooting](/troubleshooting) and the [Common Issues](/commonissues) pages might help you to quickly find a solution to a problem.  

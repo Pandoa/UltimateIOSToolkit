@@ -17,13 +17,14 @@
 	.app-sub-sidebar li > a.section-link {color:#29829b}
 	:root {--theme-color:#afd8e6}
 	.markdown-section code {color: #95abb3;}
-	.markdown-section h3 { margin: 20px 0 0}
-	.markdown-section p.tip {border-left: 4px solid #29829b}
+	.markdown-section h3 { margin: 20px 0 0 }
+	.markdown-section p.tip {border-left: 4px solid #29829b;color:#859ba3;border-radius:4px}
 	.markdown-section p.tip:before {background: #29829b}
 	.markdown-section p.tip code {color:#225; background-color: #ccc}
 	.markdown-section blockquote p {padding: 10px}
-	.markdown-section blockquote {background: #202020;}
-	.markdown-section p.warn {border: 1px solid #bF7F7F; color:white}
+	.markdown-section blockquote {background: #202020;border-radius:4px}
+	.markdown-section p.warn {border: 1px solid #bF7F7F; color:white;border-radius:4px}
+	.markdown-section pre {border-radius:4px}
 	.markdown-section pre>code {color: #ddd}
 	.markdown-section p.tip, .markdown-section tr:nth-child(2n) {background:#222}
 	.token.class-name {color: #70d997}
@@ -59,6 +60,8 @@
 	@media screen and (max-width: 768px) {
 		.sidebar-toggle {width:auto}
 	}
+	
+	img {border-radius:4px}
 	
 	img, .sidebar {
 		-webkit-touch-callout: none;
