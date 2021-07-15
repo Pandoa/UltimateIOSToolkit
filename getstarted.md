@@ -101,7 +101,7 @@ node `Add Test Device ID`.
 5. Re-run your app. If the ad is a Google ad, you'll see a Test Ad label centered at the top of the ad (appopen, banner, interstitial, or rewarded video):  
 
 <div style="text-align:center">
-<img src="https://developers.google.com/admob/images/android-testad-0.png" style="max-width:500px"/>
+<img src="_images/android-testad-0.png" style="max-width:500px"/>
 </div>
 
 > Ads with this Test Ad label are safe to click. Requests, impressions, and clicks on test ads will not show up in your account's reports.
