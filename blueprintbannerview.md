@@ -42,7 +42,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_VariableSet Name="K2Node_Variab
    CustomProperties Pin (PinId=AC24D00A4F7AB2B42E6914A1E4155FC3,PinName="Output_Get",PinToolTip="Retrieves the value of the variable, can use instead of a separate Get node",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/AdsPro.AdMobBannerView"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/CreateBannerView.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/CreateBannerView.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
@@ -116,7 +116,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_MakeArray Name="K2Node_MakeArra
    CustomProperties Pin (PinId=23E7370A40B0539E4FED1AA189C4547C,PinName="[1]",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,DefaultValue="Keywords",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/LoadAdBannerView.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/LoadAdBannerView.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
@@ -206,7 +206,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_AsyncAction Name="K2Node_AsyncA
 End Object
 
 </textarea>
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/ShowBannerView.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/ShowBannerView.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 

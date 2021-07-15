@@ -16,7 +16,7 @@ All functionalities are available without limitation for Blueprints and / or C++
 - GDPR support.
 - iOS 14 app transparency support.
 
-![Features](https://github.com/Pandoa/AdsPro/blob/main/_images/Features.png?raw=true)
+![Features](https://github.com/Pandoa/4dsPro/blob/main/_images/Features.png?raw=true)
 
 ## Get Started
 Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Blueprints Examples](/blueprintsexamples).

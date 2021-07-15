@@ -72,7 +72,7 @@ void UMyClass::ShowAdIfNotExpired()
 	const FDateTime LoadTime = MyAppOpen->GetAdLoadTime();
 
 	// Checks that less than 4 hours have passed.
-	if (LoadTime + FTimespan::FromHours(4.) > FDateTime::Now())
+	if (LoadTime + FTimespan::FromHours(4.) < FDateTime::Now())
 	{
 		// We should reload an ad.
 		// MyAppOpen->LoadAd(...);

@@ -4,7 +4,7 @@ This section contains examples on how to use GDPR with the plugin.
 At app startup, you must check if the consent is required. To do so, call the `Is Consent Required` node of the Consent Library.
 
 <div style="text-align:center">
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/IsConsentRequired.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/IsConsentRequired.png?raw=true"/>
 </div>
 
 ## Using the UMP to request consent
@@ -13,7 +13,7 @@ We can show the UMP consent form with the `Request Consent` method of the Consen
 You can also nicely launch your own consent form here so it blends better with your application style.
 
 <div style="text-align:center">
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/UMPRequestConsent.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/UMPRequestConsent.png?raw=true"/>
 </div>
 
 ## Disabling Personalized Ads
@@ -184,7 +184,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_5"
    CustomProperties Pin (PinId=118586BB4EA9470F8087FD820D560415,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,LinkedTo=(K2Node_AsyncAction_5 25A793294BBB197C70EA3889EF5833FD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/DisablePersonalizedAds.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/DisablePersonalizedAds.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 </div>

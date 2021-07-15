@@ -34,7 +34,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_VariableSet Name="K2Node_Variab
    CustomProperties Pin (PinId=50E143D44364B5941CBBD2BDB6E2DA07,PinName="Output_Get",PinToolTip="Retrieves the value of the variable, can use instead of a separate Get node",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/AdsPro.AdMobRewardedVideo"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/CreateRewardedVideo.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/CreateRewardedVideo.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
@@ -102,7 +102,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_MakeArray Name="K2Node_MakeArra
    CustomProperties Pin (PinId=6DB03FBE40C054414411AB9C884643C1,PinName="[1]",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,DefaultValue="Keywords",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/LoadAdRewardedVideo.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/LoadAdRewardedVideo.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
@@ -187,7 +187,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_AsyncAction Name="K2Node_AsyncA
    CustomProperties Pin (PinId=6A91867C4F35FEE0D7BD36B47E18CCC0,PinName="RewardedVideo",PinToolTip="Rewarded Video\nAd Mob Rewarded Video Object Reference",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/AdsPro.AdMobRewardedVideo"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,LinkedTo=(K2Node_AsyncAction_8 DC331BB24FE4BE11BF521A97032852F1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/AdsPro/blob/main/_images/ShowRewardedVideo.png?raw=true"/>
+<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/ShowRewardedVideo.png?raw=true"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
