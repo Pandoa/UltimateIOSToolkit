@@ -13,6 +13,7 @@ Here is a non-exhaustive list of available includes:
 // Ads
 #include "AdMob/AdMobLibrary.h"
 #include "AdMob/AdMobTypes.h"
+#include "AdMob/AppOpen.h"
 #include "AdMob/BannerView.h"
 #include "AdMob/RewardedVideo.h"
 #include "AdMob/InterstitialAd.h"
@@ -22,8 +23,14 @@ Here is a non-exhaustive list of available includes:
 #include "Mediation/AppLovin/AppLovinLibrary.h"
 #include "Mediation/Chartboost/ChartboostLibrary.h"
 #include "Mediation/Fyber/FyberLibrary.h"
-#include "Mediation/Vungle/VungleLibrary.h"
+#include "Mediation/InMobi/InMobiLibrary.h"
+#include "Mediation/IronSource/IronSourceLibrary.h"
+#include "Mediation/MyTarget/MyTargetLibrary.h"
+#include "Mediation/Tapjoy/TapjoyLibrary.h"
+#include "Mediation/UnityAds/UnityAdsLibrary.h"
+#include "Mediation/VerizonMedia/VerizonMediaLibrary.h"
 #include "Mediation/Vpon/VponLibrary.h"
+#include "Mediation/Vungle/VungleLibrary.h"
 
 // iOS 14 App Tracking Transparency
 #include "AppTracking/AppTrackingLibrary.h"
