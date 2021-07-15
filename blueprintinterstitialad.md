@@ -102,7 +102,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_MakeArray Name="K2Node_MakeArra
    CustomProperties Pin (PinId=05D5559E44A0F5174C9CB6ADCC5EA1BC,PinName="[1]",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,DefaultValue="Keywords",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/LoadInter.png?raw=true"/>
+<img src="_images/LoadInter.png"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
@@ -186,7 +186,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_AsyncAction Name="K2Node_AsyncA
    CustomProperties Pin (PinId=7C976D224D029D6C5B6AF1B79516F786,PinName="InterstitialAd",PinToolTip="Interstitial Ad\nAd Mob Interstitial Ad Object Reference",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/AdsPro.AdMobInterstitialAd"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,LinkedTo=(K2Node_AsyncAction_8 AFEE345643B4F104945F559F31731CB7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/ShowInter.png?raw=true"/>
+<img src="_images/ShowInter.png"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
@@ -269,7 +269,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_CustomEvent Name="K2Node_Custom
    CustomProperties Pin (PinId=2DC4D8CE4919C8860284EC86223AFFE4,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/InterEvents.png?raw=true"/>
+<img src="_images/InterEvents.png"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
