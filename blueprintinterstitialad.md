@@ -34,7 +34,7 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0"
    CustomProperties Pin (PinId=118586BB4EA9470F8087FD820D560415,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,LinkedTo=(K2Node_VariableSet_0 A8B39A504D8E1BE2DAACE5A814D70466,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 </textarea>
-<img src="https://github.com/Pandoa/4dsPro/blob/main/_images/CreateInter.png?raw=true"/>
+<img src="_images/CreateInter.png"/>
 <button onclick="copyBlueprintCode(this)">Copy Code</button>
 </div>
 
