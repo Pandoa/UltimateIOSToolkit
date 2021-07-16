@@ -1,6 +1,8 @@
 # iOS App Tracking Transparency
 This section contains information on how to setup App Tracking Transparency for iOS.
 
+!> Xcode 12 is required to use App Tracking Transparency.
+
 ## App Tracking Transparency Message
 First, we need to define a message to be displayed to the user.
 1. Open the file `<Project>/Config/DefaultEngine.ini`.
