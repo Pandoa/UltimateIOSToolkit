@@ -7,8 +7,8 @@ It imposes obligations onto organizations anywhere, as long as they target or co
 
 Among other obligations, the data subject has to give you specific, unambiguous consent to process the data.
 
-AdMob uses users' data to show personalized ads through your application so you must comply to it if you target EEA countries or disable
-personalized ads. The same applies for any Mediation Partner used by your application.
+AdMob uses users' data to show personalized ads through your application hence you must comply to it if you target EEA countries or disable
+personalized ads. The same applies for any Mediation Partners used by your application.
 
 !> Please, keep in mind that this documentation is not law related. For any real concern, a contact with a specialized lawyer is probably the best thing to do.
 
