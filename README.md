@@ -6,7 +6,7 @@
 The plugin is still in development and is not available yet.  
 
 ## How it works
-The plugin uses the Google Mobile Ads SDK of the target platform internally to display native ads. A simple yet complete API is disponible for both Blueprints
+The plugin uses the Google Mobile Ads SDK of the target platform internally to display native ads. A simple yet complete API is available for both Blueprints
 and C++ to seemlessly implement ads with Unreal Engine without bothering about platform-specific details.  
 All functionalities are available without limitation for Blueprints and / or C++.
 
