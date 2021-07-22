@@ -1,6 +1,6 @@
 # Get Started
 
-This section contains steps required to use the plugin. You can still use the plugin if you don't follow them but will only have test ads and default configuration.
+This section contains the steps required to use the plugin. You can still use the plugin if you don't follow them but will only have test ads and default configuration.
 
 ## Creating an AdMob account
 > [Official documentation page](https://support.google.com/admob/answer/7356219) for account creation.  
