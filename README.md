@@ -1,6 +1,6 @@
-# Ads Pro
+# Java Blueprint Interface
 
-> An Unreal Engine plugin to display ads on mobile devices.
+> An Unreal Engine plugin to interact with the Android Java VM from Blueprints.
 
 ## Unreal Engine Marketplace
 The plugin is still in development and is not available yet.  
@@ -11,12 +11,9 @@ and C++ to seemlessly implement ads with Unreal Engine without bothering about p
 All functionalities are available without limitation for Blueprints and / or C++.
 
 ## Features
-- Multiple Ad Formats.
-- Ad Mediation.
-- GDPR support.
-- iOS 14 app transparency support.
-
-![Features](_images/Features.png)
+- Call Java methods from Blueprints.
+- Call Blueprint methods from Java.
+- Use any Java library directly from Blueprints.
 
 ## Get Started
 Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Blueprints Examples](/blueprintexamples).

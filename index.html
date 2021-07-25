@@ -2,42 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Documentation | Ads Pro</title>
+  <title>Documentation | JBI</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Documentation for the AdsPro plugin available on the Unreal Engine Marketplace.">
+  <meta name="description" content="Documentation for the JBI plugin available on the Unreal Engine Marketplace.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" />
   <link rel="icon" href="favicon.png">
-  <meta property="og:title" content="AdsPro Documentation" />
+  <meta property="og:title" content="JBI Documentation" />
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://pandoa.github.io/4dsPro/" />
+  <meta property="og:url" content="https://pandoa.github.io/JBI/" />
   <style>
 	html, body, .content {background: #121212}
 	textarea {display:none}
 	.sidebar {background-color: #242424}
 	.sidebar a.section-link {font-size: 0.8em}
 	.app-sub-sidebar li {margin:0}
-	.app-sub-sidebar li > a.section-link {color:#29829b}
-	:root {--theme-color:#afd8e6}
-	.markdown-section code {color: #95abb3;}
+	.app-sub-sidebar li > a.section-link {color:#2DaC64}
+	:root {--theme-color:#3DDC84}
+	.markdown-section code {color: #1DaC64;}
 	.markdown-section h3 { margin: 20px 0 0 }
-	.markdown-section p.tip {border-left: 4px solid #29829b;color:#859ba3;border-radius:4px}
-	.markdown-section p.tip:before {background: #29829b}
-	.markdown-section p.tip code {color:#225; background-color: #ccc}
+	.markdown-section p.tip {border-left: 4px solid #3DDC84;color:#8DDCa4;border-radius:6px}
+	.markdown-section p.tip:before {background: #3DDC84}
+	.markdown-section p.tip code {color: #1DaC64; background-color: #333;}
 	.markdown-section blockquote p {padding: 10px}
 	.markdown-section blockquote {background: #202020;border-radius:4px}
-	.markdown-section p.warn {border: 1px solid #bF7F7F; color:white;border-radius:4px}
+	.markdown-section p.warn {border: 1px solid #bF7F7F; color:white;border-radius:6px}
 	.markdown-section pre {border-radius:4px}
-	.markdown-section pre>code {color: #ddd}
+	.markdown-section pre>code {color: #ddd;line-height:18px}
 	.markdown-section p.tip, .markdown-section tr:nth-child(2n) {background:#222}
 	.token.class-name {color: #70d997}
 	.markdown-section td, .markdown-section th {border:1px solid #555}
 	.token.function {color: #efefbf}
 	.token.keyword {color: #569cd6}
-	.token.comment {color: #9f9f9f}
+	.token.comment {color: #aaa}
 	.token.punctuation{color: #999}
 	.token.attr-name {color: #4993e7 }
 	.sidebar ul>li>a {color: #888}
+	.token.punctuation.annotation {color: #666}
 	.sidebar-toggle {width: 300px; background: #555;transition: width 0.2s linear}
 	.sidebar-nav > ul > li > ul > li  {margin:0}
 	body.close .sidebar-toggle {width: 36px}
@@ -54,7 +55,7 @@
     }
     ::-webkit-scrollbar-thumb {
       background: #777;
-	  border-radius: 5px;
+	  border-radius: 6px;
     }
     ::-webkit-scrollbar-thumb:hover {
       background: #555;
@@ -64,7 +65,11 @@
 		.sidebar-toggle {width:auto}
 	}
 	
-	img {border-radius:4px}
+	img {
+		border-radius:6px;
+		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+		border: 1px solid black;
+	}
 	
 	img, .sidebar {
 		-webkit-touch-callout: none;
@@ -149,31 +154,13 @@
 	}
 	
   </style>
-  <script src="./js/prebid-ads.js"></script>
   <script>function copyBlueprintCode(button){var c=button.parentNode.children[0];c.style.display="block";c.select();document.execCommand("copy");c.style.display="none";}</script>
 </head>
 <body>
-	<div id="block-notice" class="adblock-container">
-		<h1>Ad Blocker detected. The documentation might not work properly.</h1>
-		<div>
-			Some pages or images might be blocked if your ad blocker uses URL-based blocking.
-		</div>
-		<button onclick="document.getElementById('block-notice').style.display = 'none'">
-			&#10006;
-		</button>
-	</div>
-	
-	<script>
-		if (window.canRunAds === undefined)
-		{
-			document.getElementById("block-notice").style.display = 'block';
-		}
-	</script>
-
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Ads Pro',
+      name: 'Java Blueprint Interface',
 	  loadSidebar: true,
 	  subMaxLevel: 2
     }
@@ -183,6 +170,7 @@
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 </body>
 </html>
 
