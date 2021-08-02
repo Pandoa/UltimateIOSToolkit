@@ -138,7 +138,7 @@ End Object
 The plugin offers a way to call Blueprints functions with the help of Unreal Engine reflection system.
 
 It can be done with the help of the Java class `BlueprintCallback` in the package `com.pandora.jbi`. It is meant to be created in Blueprints
-and to pass it to a Java call as parameter.
+and to be passed to Java as a parameter.
 
 The Java class `BlueprintCallback` can easily be created with the `Create Java Callback by Function Name` node:
 <div class="bpcode">
