@@ -3,7 +3,7 @@
 > An Unreal Engine plugin to interact with the Android Java VM from Blueprints.
 
 ## Unreal Engine Marketplace
-The plugin is still in development and is not available yet.  
+The plugin is available on the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/jbi-java-blueprint-interface).
 
 ## Features
 - Call Java methods from Blueprints.
