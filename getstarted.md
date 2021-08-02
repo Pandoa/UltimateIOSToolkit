@@ -162,6 +162,7 @@ End Object
 This class, when received as parameter in a Java function, can fire the associated Blueprint event on demand with any parameter we want.
 The parameter will be automatically converted if it matches the type of the Blueprint event.
 ```java
+// A java method where we passe the BlueprintCallback object created from Blueprints as parameter.
 void someFunction(BlueprintCallback callback)
 {
 	// Executes the callback with parameters.
