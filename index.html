@@ -8,39 +8,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" />
   <link rel="icon" href="favicon.png">
-  <meta property="og:title" content="JBI Documentation" />
+  <meta property="og:title" content="Notifications Pro Documentation" />
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://pandoa.github.io/JBI/" />
+  <meta property="og:url" content="https://pandoa.github.io/NotificationsPro/" />
   <style>
+	:root {--theme-color:#ff5555}
 	html, body, .content {background: #121212}
+	.markdown-section a {color:#ffaaaa;font-weight:400}
 	textarea {display:none}
 	.sidebar {background-color: #242424}
 	.sidebar a.section-link {font-size: 0.8em}
 	.app-sub-sidebar li {margin:0}
-	.app-sub-sidebar li > a.section-link {color:#2DaC64}
-	:root {--theme-color:#3DDC84}
-	.markdown-section code {color: #1DaC64;}
+	.app-sub-sidebar li > a.section-link {color:#fdb}
+	.markdown-section code {color: #ff8888;}
 	.markdown-section h3 { margin: 20px 0 0 }
-	.markdown-section p.tip {border-left: 4px solid #3DDC84;color:#8DDCa4;border-radius:6px}
-	.markdown-section p.tip:before {background: #3DDC84}
-	.markdown-section p.tip code {color: #1DaC64; background-color: #333;}
-	.markdown-section blockquote p {padding: 10px}
+	.markdown-section p.tip {border-left: 4px solid #ff8888;color:#bbb;border-radius:6px}
+	.markdown-section p.tip:before {background: #ff8888}
+	.markdown-section p.tip code {color: #ff8888; background-color: #333;}
+	.markdown-section blockquote p {padding: 10px;color:#bbb}
 	.markdown-section blockquote {background: #202020;border-radius:4px}
-	.markdown-section p.warn {border: 1px solid #bF7F7F; color:white;border-radius:6px}
 	.markdown-section pre {border-radius:4px}
 	.markdown-section pre>code {color: #ddd;line-height:18px}
 	.markdown-section p.tip, .markdown-section tr:nth-child(2n) {background:#222}
-	.token.class-name {color: #70d997}
+	.markdown-section p.warn {border: 1px solid #bF7F7F; color:white;border-radius:6px}
 	.markdown-section td, .markdown-section th {border:1px solid #555}
+	.token.class-name {color: #70d997}
 	.token.function {color: #efefbf}
 	.token.keyword {color: #569cd6}
 	.token.comment {color: #aaa}
 	.token.punctuation{color: #999}
 	.token.attr-name {color: #4993e7 }
+	.token.tag { color: #a8caff }
+	.token.string {color: magenta}
 	.sidebar ul>li>a {color: #888}
 	.token.punctuation.annotation {color: #666}
 	.sidebar-toggle {width: 300px; background: #555;transition: width 0.2s linear}
 	.sidebar-nav > ul > li > ul > li  {margin:0}
+	.token.attr-value, .token.control, .token.unit { color:magenta }
+	.token.directive { color: #ADC8D6 }
 	body.close .sidebar-toggle {width: 36px}
 	h4 {margin-block-end: 0.33em;margin-block-start: 0.66em}
 	h5 {margin-block-start: 1em;margin-block-end: 0}
@@ -65,6 +70,7 @@
 		.sidebar-toggle {width:auto}
 	}
 	
+	.cpp > pre,
 	img {
 		border-radius:6px;
 		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -153,16 +159,173 @@
 		cursor: pointer;
 	}
 	
+	.code-switcher
+	{
+		background: #333;
+		padding: 20px 30px;
+		border-radius: 5px;
+		position: relative;
+		border-top-right-radius: 0;
+		
+		margin: 40px 0;
+	}
+	
+	.switcher 
+	{
+		position: absolute;
+		right:0;
+		top: -24px;
+	}
+	
+	.sw-bp,
+	.sw-cpp
+	{
+		padding: 5px 10px;
+		background: #333;
+		color: #bbb;
+		transition:background 0.2s ease-in-out;
+	}
+	
+	.sw-bp:hover,
+	.sw-cpp:hover
+	{
+		background:#222x;
+		cursor: pointer;
+	}
+
+	.sw-cpp
+	{
+		border-top-right-radius: 5px;
+		-border-bottom-right-radius: 5px;
+	}
+	
+	.sw-bp
+	{
+		border-top-left-radius: 5px;
+		-border-bottom-left-radius: 5px;
+	}
+	
+	.code-switcher .bp
+	{
+		margin: 20px 10px;
+	}
+	
+	.code-switcher.show-cpp-false .bp,
+	.code-switcher.show-cpp-true .cpp {
+		display: block;
+	}
+	
+	.code-switcher.show-cpp-false .cpp,
+	.code-switcher.show-cpp-true .bp {
+		display: none;
+	}
+	
+	.code-switcher.show-cpp-false .switcher .sw-cpp,
+	.code-switcher.show-cpp-true .switcher .sw-bp
+	{
+		background: #202020;
+	}
+	
+	.centered
+	{
+		text-align:center;
+		margin: 30px 0;
+	}
+	
+	.token.ue-macro
+	{
+		color: #ADA8E6;
+	}
+	
+	.token.ue-class
+	{
+		color:#70d997;
+	}
+	
+	.bp .bpcode {
+		margin-bottom:0;
+		position:relative;
+	}
+	
+	.bp .bpcode > button {
+		position: absolute;
+		bottom: 20px;
+		top: unset;
+	}
+	
+	input:focus-visible {
+		outline: none;
+	}
+	
   </style>
-  <script>function copyBlueprintCode(button){var c=button.parentNode.children[0];c.style.display="block";c.select();document.execCommand("copy");c.style.display="none";}</script>
 </head>
 <body>
   <div id="app"></div>
+  
+  <script>
+	function copyBlueprintCode(button){
+		button.innerHTML = "Copied!";
+		setTimeout(() => {button.innerHTML = "Copy Code"}, 5000);
+		var c=button.parentNode.children[0];
+		c.style.display="block";
+		c.select();
+		document.execCommand("copy");
+		c.style.display="none";
+	}</script>
+  <script>
+	var bShowCPP = false;
+	function switchCode()
+	{
+		bShowCPP = !bShowCPP;
+		var elems = document.getElementsByClassName('code-switcher');
+		
+		for (var i = 0; i < elems.length; ++i)
+		{
+			elems[i].classList.remove('show-cpp-' + !bShowCPP);
+			elems[i].classList.add('show-cpp-' + bShowCPP);
+		}
+		
+		setCookie('bShowCPP', bShowCPP, 7);
+	}
+	function switchCpp()
+	{
+		bShowCPP = false;
+		switchCode();
+	}
+	function switchBp()
+	{
+		bShowCPP = true;
+		switchCode();
+	}
+	function setCookie(name,value,days) {
+		var expires = "";
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime() + (days*24*60*60*1000));
+			expires = "; expires=" + date.toUTCString();
+		}
+		document.cookie = name + "=" + value + expires + "; path=/";
+	}
+	function getCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+	
+	bShowCPP = JSON.parse(getCookie('bShowCPP'));
+  </script>
+  
   <script>
     window.$docsify = {
-      name: 'Java Blueprint Interface',
+      name: 'Notifications PRO',
 	  loadSidebar: true,
-	  subMaxLevel: 2
+	  subMaxLevel: 2,
+	  executeScript: true
     }
   </script>
 <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -171,6 +334,37 @@
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+<script src="js/custom-class.min.js"></script>
+<script>
+(function () {
+	Prism.plugins.customClass.add(({content, type, language}) => {
+		if (content === 'UCLASS' || content === "UFUNCTION" || content === "UPROPERTY" || content === "GENERATED_BODY" ||
+			content === 'check') {
+			return 'ue-macro';
+		}
+		if (content == "FString" || content == "int32" || content == "UWindowsToastNotifier" 
+			|| content == "Super" || content == "TCHAR")
+		{
+			return 'ue-class';
+		}
+	});
+}());
+// https://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid#answer-2117523
+function uuidv4() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
+function generateGuidClicked()
+{
+	var UUID = uuidv4().toUpperCase();
+	document.getElementById("uuid").value = UUID.replace(/\-/g, "");
+	document.getElementById("ruuid").value = "{ " + UUID + " }";
+}
+</script>
 </body>
 </html>
 

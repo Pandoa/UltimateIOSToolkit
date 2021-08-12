@@ -1,10 +1,18 @@
-- Java Blueprint Interface
+- Notifications PRO
   - [Plugin details](/)
-  - [Get Started](/getstarted)
-- Blueprints Examples
-  - [Get the Device ID](/deviceuid)
-  - [Show a Toast](/showtoast)
-  - [Show a Dialog](/showdialog)
+- Get Started
+  - [Windows](/getstartedwindows)
+- Windows
+  - [Show a Toast](/)
+  - [Schedule a Toast](/)
+  - [Advanced Toast](/windowsshowtoastadvanced)
+- MacOS
+  - [Notification](/)
+- iOS
+  - [Notification](/)
+- Android
+  - [Notification](/)
+  - [Toast](/)
 - Support
   - [Frequently Asked Questions](/frequentlyaskedquestions)
   - [Troubleshooting](/troubleshooting)
