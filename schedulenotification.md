@@ -42,8 +42,11 @@ void ShowToast()
 	// The Toast XML data. Omitted for brievety.
 	const TCHAR* ToastXml = TEXT("...");
 	
-	// And we just show the Toast.
-	UWindowsNotificationLibrary::ShowToast(ToastXml, PackageName);
+	// The Toast delivery data.
+	const FDateTime DeliveryDate = FDateTime::UtcNow() + FTimespan::FromMinutes(10);
+	
+	// And we just schedule the Toast.
+	UWindowsNotificationLibrary::ScheduleNotification(ToastXml, PackageName, DeliveryDate);
 }
 ```
 
@@ -76,3 +79,11 @@ End Object
 </div>
 </div>
 </div>
+
+<script>
+setTimeout(() => {
+	bShowCPP = !JSON.parse(getCookie('bShowCPP'));
+	switchCode();
+}, 0);
+</script>
+

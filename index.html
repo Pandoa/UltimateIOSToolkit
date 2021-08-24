@@ -12,19 +12,19 @@
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://pandoa.github.io/NotificationsPro/" />
   <style>
-	:root {--theme-color:#ff5555}
+	:root {--theme-color:#add8e6}
 	html, body, .content {background: #121212}
-	.markdown-section a {color:#ffaaaa;font-weight:400}
-	textarea {display:none}
+	.markdown-section a {color:#add8e6;font-weight:400}
 	.sidebar {background-color: #242424}
+	textarea {display:none}
 	.sidebar a.section-link {font-size: 0.8em}
+	.app-sub-sidebar li > a.section-link {color:var(--theme-color)}
 	.app-sub-sidebar li {margin:0}
-	.app-sub-sidebar li > a.section-link {color:#fdb}
-	.markdown-section code {color: #ff8888;}
+	.markdown-section code {color: var(--theme-color);}
 	.markdown-section h3 { margin: 20px 0 0 }
-	.markdown-section p.tip {border-left: 4px solid #ff8888;color:#bbb;border-radius:6px}
-	.markdown-section p.tip:before {background: #ff8888}
-	.markdown-section p.tip code {color: #ff8888; background-color: #333;}
+	.markdown-section p.tip {border-left: 4px solid var(--theme-color);color:#bbb;border-radius:6px}
+	.markdown-section p.tip:before {background: var(--theme-color)}
+	.markdown-section p.tip code {color: var(--theme-color); background-color: #333;}
 	.markdown-section blockquote p {padding: 10px;color:#bbb}
 	.markdown-section blockquote {background: #202020;border-radius:4px}
 	.markdown-section pre {border-radius:4px}
@@ -331,22 +331,51 @@
 <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+<script src="js/prism-cpp.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
 <script src="js/custom-class.min.js"></script>
 <script>
+var CustomMacros = 
+[
+	'UCLASS',
+	"UFUNCTION",
+	"UPROPERTY",
+	"GENERATED_BODY",
+	'check',
+	"TEXT",
+	"MYGAME_API"
+];
+
+var CustomTypes = 
+[
+	"FString",
+	"int32",
+	"UWindowsToastNotifier",
+	"Super",
+	"TCHAR",
+	"FDateTime",
+	"TStatId",
+	"UObject",
+	"FTickableGameObject",
+	"EObjectFlags",
+	"TMap",
+	"TArray",
+	"TSet"
+];
+
 (function () {
 	Prism.plugins.customClass.add(({content, type, language}) => {
-		if (content === 'UCLASS' || content === "UFUNCTION" || content === "UPROPERTY" || content === "GENERATED_BODY" ||
-			content === 'check') {
-			return 'ue-macro';
-		}
-		if (content == "FString" || content == "int32" || content == "UWindowsToastNotifier" 
-			|| content == "Super" || content == "TCHAR")
+		if (language == "cpp")
 		{
-			return 'ue-class';
+			
+			if (CustomMacros.includes(content)) {
+				return 'ue-macro';
+			}
+			if (CustomTypes.includes(content))
+			{
+				return 'ue-class';
+			}
 		}
 	});
 }());

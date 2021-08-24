@@ -11,7 +11,7 @@ The plugin is available on the [Unreal Engine Marketplace](https://www.unrealeng
 - Update notifications in the Control Center based on the state of your game.
 
 ## Get Started
-Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Examples](/showtoast).
+Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Examples](/shownotification).
 
 ## Support
 The [Troubleshooting](/troubleshooting) and the [Common Issues](/commonissues) pages might help you to quickly find a solution to a problem.  
