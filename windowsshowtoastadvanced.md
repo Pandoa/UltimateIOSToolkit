@@ -1,4 +1,4 @@
-# Advanced Toast - Windows
+# Advanced Toast
 This section shows how to create an advanced Toast on Windows.
 
 ## What we want to do
@@ -160,13 +160,13 @@ private:
 // It would be better to have it as a global variable or from a
 // config file.
 // We just keep it here for simplicity of the example.
-static const TCHAR* PACKAGE_NAME = TEXT("com.myapp.mygame");
+static const TCHAR* const PACKAGE_NAME = TEXT("com.myapp.mygame");
 
 // A unique ID used to update the Toast.
-static const TCHAR* TOAST_ID_TAG = TEXT("my_toast_unique_id");
+static const TCHAR* const TOAST_ID_TAG = TEXT("my_toast_unique_id");
 
 // The XML data used to show our Toast.
-static const TCHAR* TOAST_XML_DATA = 
+static const TCHAR* const TOAST_XML_DATA = 
 	LR"(\
 		<toast launch="my-launch-intents">\
 			<visual>\

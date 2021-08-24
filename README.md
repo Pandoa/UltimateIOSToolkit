@@ -1,17 +1,17 @@
-# Java Blueprint Interface
+# Windows Notification
 
-> An Unreal Engine plugin to interact with the Android Java VM from Blueprints.
+> An Unreal Engine plugin to show native Windows toast notifications.
 
 ## Unreal Engine Marketplace
 The plugin is available on the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/jbi-java-blueprint-interface).
 
 ## Features
-- Call Java methods from Blueprints.
-- Call Blueprint methods from Java.
-- Use any Java library directly from Blueprints.
+- Show native toast notifications.
+- Schedule native toast notifications.
+- Update notifications in the Control Center based on the state of your game.
 
 ## Get Started
-Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Blueprints Examples](/blueprintexamples).
+Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Examples](/showtoast).
 
 ## Support
 The [Troubleshooting](/troubleshooting) and the [Common Issues](/commonissues) pages might help you to quickly find a solution to a problem.  

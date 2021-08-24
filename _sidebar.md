@@ -1,18 +1,12 @@
-- Notifications PRO
+- Windows Notification
   - [Plugin details](/)
 - Get Started
   - [Windows](/getstartedwindows)
 - Windows
-  - [Show a Toast](/)
-  - [Schedule a Toast](/)
+  - [Show a Toast](/shownotification)
+  - [Schedule a Toast](/schedulenotification)
   - [Advanced Toast](/windowsshowtoastadvanced)
-- MacOS
-  - [Notification](/)
-- iOS
-  - [Notification](/)
-- Android
-  - [Notification](/)
-  - [Toast](/)
+  - [Handle Notification's Actions](/notificationactions)
 - Support
   - [Frequently Asked Questions](/frequentlyaskedquestions)
   - [Troubleshooting](/troubleshooting)
