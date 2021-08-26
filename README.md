@@ -3,7 +3,7 @@
 > An Unreal Engine plugin to show native Windows toast notifications.
 
 ## Unreal Engine Marketplace
-The plugin is available on the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/jbi-java-blueprint-interface).
+The plugin is available on the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/8f2ecaadd9ff4f7a8cb1d75059640182).
 
 ## Features
 - Show native toast notifications.
