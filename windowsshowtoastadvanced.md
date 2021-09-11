@@ -5,7 +5,7 @@ This section shows how to create an advanced Toast on Windows.
 This example shows how to create the following Toast on Windows and update its values directly from your game:  
 
 <div style="text-align:center">
-<img src="/_images/AdvancedToast.png" data-origin="_images/AdvancedToast.png" alt="">
+<img src="/_images/AdvancedToast.png" alt="">
 </div>
 
 This Toast, once delivered, will update its state periodically with data from our game.
