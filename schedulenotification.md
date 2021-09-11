@@ -5,7 +5,7 @@ This section shows how to show a simple Toast on Windows.
 This example shows how to create and schedule the following Toast on Windows:
 
 <div style="text-align:center">
-<img src="/_images/SimpleToastSchedule.png" alt="">
+<img src="_images/SimpleToastSchedule.png" alt="">
 </div>
 
 ## Getting the Toast XML data
