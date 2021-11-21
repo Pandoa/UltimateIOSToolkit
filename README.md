@@ -1,17 +1,28 @@
-# Windows Notification
+# Ultimate iOS Toolkit
 
-> An Unreal Engine plugin to show native Windows toast notifications.
+> An Unreal Engine plugin to access iOS native features.
 
 ## Unreal Engine Marketplace
-The plugin is available on the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/8f2ecaadd9ff4f7a8cb1d75059640182).
+The plugin is available on the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/49d9bad36a9b4fa496a72fdae13c5f4b).
 
 ## Features
-- Show native toast notifications.
-- Schedule native toast notifications.
-- Update notifications in the Control Center based on the state of your game.
+- Show native alert modals.
+- Authenticate with biometry (FaceID or TouchID).
+- Show native UIs.
+- Take photos or import them from the library.
+- Add Sign-In with Apple.
+- Access pedometer data.
+- Access the device's sensors (Accelerometer, Gyroscope, Magnetometer, Barometric Sensor).
+- Add haptic feedback with the Haptic Engine.
+- Access and edit the device's contacts.
+- Access Core Location data.
 
-## Get Started
-Start by following the [Get Started](/getstarted) page or dive directly in the code with the [Examples](/shownotification).
+Don't hesitate to [contact us](mailto:pandores.marketplace+UIT-FR@gmail.com?subject=UIT%20-%20Feature%20Request&body=) if we missed something.
+
+## Upcoming Features
+- GameKit (Leaderboards, Game Center, Friends, Challenges, ...)
+- CloudKit (iCloud, ...)
+- StoreKit (In-App Purchase, Subscriptions, ...)
 
 ## Support
 The [Troubleshooting](/troubleshooting) and the [Common Issues](/commonissues) pages might help you to quickly find a solution to a problem.  
