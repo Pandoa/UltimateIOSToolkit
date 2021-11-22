@@ -29,6 +29,7 @@
   - [Selection](/haptic/selection)
 - Motion
   - [Get Started](/motion/getstarted)
+  - [Core Motion API](/motion/API)
 - Notification
   - [Coming Soon]()
 - Sign-In
@@ -48,10 +49,6 @@
   - [Request Review](/ui/review)
   - [Date Picker](/ui/datepicker) 
   - [Share](/ui/share)
-- Misc
-  - [Take Screenshots](/misc/screenshot)
-  - [Open Other Apps](/misc/openapps)
-  - [Get Device Theme](/misc/theme)
 - Support
   - [Frequently Asked Questions](/frequentlyaskedquestions)
   - [Troubleshooting](/troubleshooting)
