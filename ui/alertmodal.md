@@ -350,3 +350,12 @@ End Object
 </div>
 </div>
 </div>
+
+
+
+<script>
+setTimeout(() => {
+	bShowCPP = !JSON.parse(getCookie('bShowCPP'));
+	switchCode();
+}, 0);
+</script>
